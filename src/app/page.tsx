@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/header";
 import Hero from "./components/hero";
 import About from "./components/about";
+import Pilares from "./components/pilares";
+import Beneficios from "./components/beneficios";
 
 
 
@@ -19,13 +21,15 @@ export default function Page() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting){
-            setActiveLink(entry.target.id)
+          console.log(`Seção ${entry.target.id} visível? ${entry.isIntersecting}`);
+
+          if (entry.isIntersecting) {
+            setActiveLink(entry.target.id);
           }
-        })
+        });
       },
-      { threshold:0.5}
-    )
+      { threshold: 0.1  }
+    );
 
     sections.forEach((section) => observer.observe(section))
 
@@ -37,14 +41,14 @@ export default function Page() {
   
   return (
     <main>
-        <Navbar activeLink={activeLink}  />
-        <Hero/>
-        <About/>
+      <Navbar activeLink={activeLink} />
+      <Hero />
+      <About />
+      <Pilares />
+      <Beneficios />
 
-        
-        
     </main>
-  )
+  );
 
    
 }

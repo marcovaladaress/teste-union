@@ -25,6 +25,8 @@ a.active {
   font-size: 20px;
 }
 
+
+
 .off {
   font-weight: 700;
   font-size: 20px;
@@ -54,17 +56,10 @@ a.active {
   }
 }
 
-.box-border:after {
-  content: "";
-  position: absolute;
-  inset: 0px;
-  z-index: -1;
-  border-radius: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  background: linear-gradient(
-    -74deg,
-    rgb(0, 72, 254) -50%,
-    rgb(133, 29, 134) 100%
-  );
+section {
+  scroll-margin-top: 160px; /* Ajuste conforme a altura do header */
+}
+
+html {
+  scroll-behavior: smooth;
 }
