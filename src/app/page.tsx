@@ -7,6 +7,7 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Pilares from "./components/pilares";
 import Beneficios from "./components/beneficios";
+import Etapas from "./components/etapas";
 
 
 
@@ -28,7 +29,7 @@ export default function Page() {
           }
         });
       },
-      { threshold: 0.1  }
+      { threshold: 0.3  }
     );
 
     sections.forEach((section) => observer.observe(section))
@@ -46,7 +47,7 @@ export default function Page() {
       <About />
       <Pilares />
       <Beneficios />
-
+      <Etapas/>
     </main>
   );
 

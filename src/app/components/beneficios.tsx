@@ -1,6 +1,6 @@
 export default function Beneficios() {
   return (
-    <section id="beneficio" className="mt-[200px]" >
+    <section id="beneficio" className="mt-[100px]">
       <article className="">
         <div className="flex justify-between gap-8 md:gap-14 items-center max-w-7xl mx-auto p-7">
           <div className="w-full h-[3px] bg-gradient-to-r from-[#851d86] to-[#0048fe] rounded-2xl"></div>
@@ -24,10 +24,10 @@ export default function Beneficios() {
               />
             </div>
             <div className="text-center mt-[1rem] md:text-start  ">
-              <h3 className="text-[20px] font-bold md:text-[2.6rem] ">
+              <h3 className="text-[20px] font-extrabold lg:text-[2.3rem] ">
                 Preparação para o mercado
               </h3>
-              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] ">
+              <p className="text-[17px] tracking-tight mx-auto mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] ">
                 Os membros são equipados com uma compreensão profunda das
                 práticas de mercado, permitindo-lhes ingressar no setor com
                 confiança e conhecimento.
@@ -37,10 +37,10 @@ export default function Beneficios() {
 
           <div className="flex flex-col-reverse justify-center items-center md:flex-row md:gap-14 md:justify-end mt-20">
             <div className="text-center flex flex-col items-center mt-[1rem] md:text-end  ">
-              <h3 className="text-[20px] w-[400px] font-bold md:text-[2.6rem] md:w-[700px] ">
+              <h3 className="text-[20px] w-[400px] font-extrabold  md:text-[2.3rem] md:w-[700px] lg:text-[2.3rem] ">
                 Aprendizado de novas tecnologias e ferramentas
               </h3>
-              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] md:-mr-28 ">
+              <p className="text-[17px]  mt-[1rem] w-[290px]  leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] md:-mr-28 ">
                 Os membros são expostos a uma variedade de tecnologias e
                 ferramentas relevantes, expandindo suas habilidades e
                 conhecimentos.
@@ -65,10 +65,10 @@ export default function Beneficios() {
               />
             </div>
             <div className="text-center mt-[1rem] md:text-start  ">
-              <h3 className="text-[20px] font-bold md:text-[2.6rem] ">
+              <h3 className="text-[20px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem]  ">
                 Desenvolvimento de hard skills
               </h3>
-              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] ">
+              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[700px] lg:mt-[1.6rem] ">
                 Através de projetos reais, os membros fortalecem suas
                 habilidades técnicas, aumentando sua capacidade de contribuir de
                 forma eficaz em ambientes profissionais.
@@ -78,10 +78,10 @@ export default function Beneficios() {
 
           <div className="flex flex-col-reverse justify-center items-center md:flex-row md:gap-14 md:justify-end mt-20">
             <div className="text-center flex flex-col items-center mt-[1rem] md:text-end  ">
-              <h3 className="text-[20px] w-[400px] font-bold md:text-[2.6rem] md:w-[700px] ">
+              <h3 className="text-[20px] w-[400px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem] md:w-[700px] ">
                 Desenvolvimento de soft skills
               </h3>
-              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] md:-mr-28 ">
+              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] md:-mr-28 ">
                 Além das competências técnicas, os membros aprimoram habilidades
                 interpessoais cruciais, como comunicação eficaz, resolução de
                 conflitos e trabalho em equipe.
@@ -106,10 +106,10 @@ export default function Beneficios() {
               />
             </div>
             <div className="text-center mt-[1rem] md:text-start  ">
-              <h3 className="text-[20px] font-bold md:text-[2.6rem] ">
+              <h3 className="text-[20px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem] ">
                 Ambiente imersivo
               </h3>
-              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] ">
+              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] ">
                 O Union oferece uma oportunidade única de aplicar conhecimentos
                 teóricos em cenários do mundo real, proporcionando uma
                 experiência diferenciada e valiosa.
@@ -119,10 +119,10 @@ export default function Beneficios() {
 
           <div className="flex flex-col-reverse justify-center items-center md:flex-row md:gap-14 md:justify-end mt-20">
             <div className="text-center flex flex-col items-center mt-[1rem] md:text-end  ">
-              <h3 className="text-[20px] w-[400px] font-bold md:text-[2.6rem] md:w-[700px] ">
+              <h3 className="text-[20px] w-[400px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem] md:w-[700px] ">
                 Networking
               </h3>
-              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] md:-mr-28 ">
+              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] md:-mr-28 ">
                 A participação no Union expande sua rede de contatos, abrindo
                 portas para colaborações futuras e oportunidades profissionais.
               </p>
@@ -146,10 +146,10 @@ export default function Beneficios() {
               />
             </div>
             <div className="text-center mt-[1rem] md:text-start  ">
-              <h3 className="text-[20px] font-bold md:text-[2.6rem] ">
+              <h3 className="text-[20px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem]">
                 Domínio de metodologias ágeis
               </h3>
-              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] ">
+              <p className="text-[17px] mx-auto mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] ">
                 Através da vivência prática, os membros aprendem a aplicar
                 metodologias ágeis como Scrum, preparando-os para ambientes de
                 trabalho colaborativos.
@@ -159,10 +159,10 @@ export default function Beneficios() {
 
           <div className="flex flex-col-reverse justify-center items-center md:flex-row md:gap-14 md:justify-end mt-20">
             <div className="text-center flex flex-col items-center mt-[1rem] md:text-end  ">
-              <h3 className="text-[20px] w-[400px] font-bold md:text-[2.6rem] md:w-[700px] ">
+              <h3 className="text-[20px] w-[400px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem] md:w-[700px] ">
                 Mentória
               </h3>
-              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[150%] md:text-[1.6rem] md:w-[600px] md:-mr-28 ">
+              <p className="text-[17px]  mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] md:-mr-28 ">
                 Os mentores experientes oferecem orientação valiosa,
                 proporcionando uma trajetória de aprendizado mais suave e
                 eficiente.

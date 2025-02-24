@@ -49,8 +49,8 @@ const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
               </li>
               <li>
                 <a
-                  className={activeLink === "section4" ? "active" : "off"}
-                  href="#"
+                  className={activeLink === "etapa" ? "active" : "off"}
+                  href="#etapa"
                 >
                   Etapas
                 </a>
