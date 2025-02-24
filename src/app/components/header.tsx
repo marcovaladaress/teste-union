@@ -57,8 +57,8 @@ const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
               </li>
               <li>
                 <a
-                  className={activeLink === "section5" ? "active" : "off"}
-                  href="#"
+                  className={activeLink === "depoimentos" ? "active" : "off"}
+                  href="#depoimentos"
                 >
                   Depoimentos
                 </a>
@@ -73,14 +73,20 @@ const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
               </li>
             </ul>
           </div>
-          <button className="relative px-8 py-3 rounded-md text-white font-semibold border-2 border-transparent overflow-hidden transition-all duration-500 ease-in-out group">
-              <span className="relative text-xl font-extrabold z-10">Junte-se a nós</span>
+          <button className="relative hidden md:block px-8 py-3 rounded-md text-white font-semibold border-2 border-transparent overflow-hidden transition-all duration-500 ease-in-out group">
+            <span className="relative text-xl font-extrabold z-10">
+              Junte-se a nós
+            </span>
 
-              <div className="absolute inset-0 bg-gradient-to-r from-[#851d86] to-[#0048fe] transition-all duration-500 ease-in-out 
-                group-hover:translate-x-full group-hover:opacity-0"></div>
+            <div
+              className="absolute inset-0 bg-gradient-to-r from-[#851d86] to-[#0048fe] transition-all duration-500 ease-in-out 
+                group-hover:translate-x-full group-hover:opacity-0"
+            ></div>
 
-              <div className="absolute inset-0 border-2 border-[#551256ca] rounded-md opacity-0 transition-all duration-500 ease-in-out 
-                group-hover:opacity-100"></div>
+            <div
+              className="absolute inset-0 border-2 border-[#551256ca] rounded-md opacity-0 transition-all duration-500 ease-in-out 
+                group-hover:opacity-100"
+            ></div>
           </button>
           <button className="md:hidden">
             <Menu size={28} />

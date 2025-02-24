@@ -8,6 +8,10 @@ import About from "./components/about";
 import Pilares from "./components/pilares";
 import Beneficios from "./components/beneficios";
 import Etapas from "./components/etapas";
+import TestimonialCarousel from "./components/carrosel";
+import Form from "./components/form";
+
+
 
 
 
@@ -48,6 +52,8 @@ export default function Page() {
       <Pilares />
       <Beneficios />
       <Etapas/>
+      <TestimonialCarousel/>
+      <Form/>
     </main>
   );
 
