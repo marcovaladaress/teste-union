@@ -26,7 +26,7 @@ export default function Etapas() {
                 </span>
                 <div className="ml-4">
                   <h3 className="text-xl font-extrabold text-center pb-3 lg:text-[1.6rem]">
-                    Pré-inscricao
+                    Pré-inscrição
                   </h3>
                   <p className="text-[15px]  text-center leading-[150%] w-[130px] lg:text-[20px] lg:w-[200px] ">
                     Inicie a sua inscrição preenchendo o nosso formulário
