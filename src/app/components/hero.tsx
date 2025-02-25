@@ -29,7 +29,9 @@ export default function Hero() {
             </button>
           </div>
 
-          <div className="hidden move-up relative  lg:block max-w-lg bg-[url('/render.svg')] h-[500px] bg-cover bg-center bg-no-repeat ml-14  "></div>
+          <div className="hidden move-up relative  lg:block max-w-lg h-[500px] bg-cover bg-center bg-no-repeat ml-14  ">
+            <img src="/Render.svg" alt="img-hero" />
+          </div>
         </article>
       </div>
     </section>
