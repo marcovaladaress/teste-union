@@ -71,9 +71,9 @@ export default function TestimonialCarousel() {
                 key={index}
                 className="flex justify-center md:basis-1/2 lg:basis-1/3 pl-2 md:pl-4  "
               >
-                <Card className=" relative bg-transparent text-white border-none p-6 rounded-xl w-80 h-[500px] overflow-hidden">
+                <Card className=" relative bg-transparent text-white border-none p-6 rounded-xl w-80 h-[550px] overflow-hidden">
                   <div className="absolute inset-[1.4rem]  rounded-xl bg-gradient-to-r  from-[#851D86] to-[#0048FE]" />
-                  <div className="relative flex flex-col items-center justify-center text-center p-[1rem] h-[28.3rem] bg-[#18181B] rounded-xl">
+                  <div className="relative flex flex-col items-center justify-center text-center p-[1rem] h-[31.3rem] bg-[#18181B] rounded-xl">
                     <img
                       src={item.image}
                       alt={item.name}
@@ -85,13 +85,31 @@ export default function TestimonialCarousel() {
                     <p className="mt-4 text-[17px] leading-6 text-gray-300">
                       {item.text}
                     </p>
+                    <div className="mt-4 flex gap-4">
+                      <div className="flex flex-col gap-1 items-center ">
+                        <img
+                          src="/linkedin-icon.svg"
+                          alt="logo linkedin"
+                          className="w-[26px] "
+                        />
+                        <p className="text-[15px]">LinkedIn</p>
+                      </div>
+                      <div className="flex flex-col gap-1 items-center ">
+                        <img
+                          src="/github-icon.svg"
+                          alt="logo linkedin"
+                          className="w-[26px] "
+                        />
+                        <p className="text-[15px]">Github</p>
+                      </div>
+                    </div>
                   </div>
                 </Card>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="absolute left-[1rem] bg-transparent text-" />
-          <CarouselNext className="absolute right-[1rem]" />
+          <CarouselPrevious className="absolute left-[1rem] bg-transparent" />
+          <CarouselNext className="absolute right-[1rem] bg-transparent" />
         </Carousel>
       </div>
     </section>

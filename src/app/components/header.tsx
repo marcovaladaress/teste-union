@@ -3,12 +3,21 @@
 import { Menu } from "lucide-react";
 
 import React from 'react';
+import HamburgerMenu from "./menu-hamburguer";
 
 interface HeaderProps {
   activeLink: string;
 }
 
 const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
+
+  const menuLinks = [
+    { label: "Sobre", href: "#about" },
+    { label: "Pilares", href: "#pilares" },
+    { label: "Benefícios", href: "#beneficio" },
+    { label: "Depoimentos", href: "#depoimentos" },
+    { label: "Dúvidas", href: "#duvidas" },
+  ];
   return (
     <header className="bg-[#121119] w-full fixed z-10">
       <nav className=" max-w-7xl mx-auto ">
@@ -65,15 +74,15 @@ const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
               </li>
               <li>
                 <a
-                  className={activeLink === "section6" ? "active" : "off"}
-                  href="#"
+                  className={activeLink === "duvidas" ? "active" : "off"}
+                  href="#duvidas"
                 >
                   Dúvidas
                 </a>
               </li>
             </ul>
           </div>
-          <button className="relative hidden md:block px-8 py-3 rounded-md text-white font-semibold border-2 border-transparent overflow-hidden transition-all duration-500 ease-in-out group">
+          <button className="relative hidden md:block px-12 py-3 rounded-md text-white font-semibold border-2 border-transparent overflow-hidden transition-all duration-500 ease-in-out group">
             <span className="relative text-xl font-extrabold z-10">
               Junte-se a nós
             </span>
@@ -88,9 +97,7 @@ const Navbar:React.FC<HeaderProps> =({ activeLink }) => {
                 group-hover:opacity-100"
             ></div>
           </button>
-          <button className="md:hidden">
-            <Menu size={28} />
-          </button>
+         <HamburgerMenu menuItems={menuLinks} />
         </div>
       </nav>
     </header>
