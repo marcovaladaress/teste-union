@@ -42,10 +42,10 @@ export default function Etapas() {
                 </span>
                 <div className="ml-4">
                   <h3 className="text-xl font-extrabold text-center pb-3  lg:text-[1.6rem]">
-                    Pré-inscricao
+                    Análise do formulário
                   </h3>
-                  <p className="text-[15px]  text-center leading-[150%] w-[130px] lg:text-[20px] lg:w-[200px] ">
-                    Inicie a sua inscrição preenchendo o nosso formulário
+                  <p className="text-[15px]  text-center leading-[150%] w-[130px] lg:text-[20px] lg:w-[300px] ">
+                    O nosso time irá analisar suas informações
                   </p>
                 </div>
               </div>
@@ -58,10 +58,10 @@ export default function Etapas() {
                 </span>
                 <div className="ml-4">
                   <h3 className="text-xl font-extrabold text-center pb-3 lg:text-[1.6rem]">
-                    Pré-inscricao
+                    Desafio técnico
                   </h3>
-                  <p className="text-[15px]  text-center leading-[150%] w-[130px] lg:text-[20px] lg:w-[200px]">
-                    Inicie a sua inscrição preenchendo o nosso formulário
+                  <p className="text-[15px]  text-center leading-[150%] w-[130px] lg:text-[20px] lg:w-[300px]">
+                    Após a análise você receberá um desafio prático
                   </p>
                 </div>
               </div>
@@ -73,11 +73,12 @@ export default function Etapas() {
                   4
                 </span>
                 <div className="ml-4">
-                  <h3 className="text-xl font-extrabold text-center pb-2">
-                    Pré-inscricao
+                  <h3 className="text-xl font-extrabold text-center lg:text-[1.6rem] pb-2">
+                    Entrevista
                   </h3>
-                  <p className="text-[15px]  text-center leading-[150%] w-[130px]">
-                    Inicie a sua inscrição preenchendo o nosso formulário
+                  <p className="text-[15px]  text-center leading-[150%] lg:text-[20px]  w-[300px]">
+                    Nessa fase iremos bater um papo para que possamos conhecer
+                    melhor você
                   </p>
                 </div>
               </div>
