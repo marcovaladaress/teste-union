@@ -76,7 +76,7 @@ export default function Etapas() {
                   <h3 className="text-xl font-extrabold text-center lg:text-[1.6rem] pb-2">
                     Entrevista
                   </h3>
-                  <p className="text-[15px]  text-center leading-[150%] lg:text-[20px]  w-[300px]">
+                  <p className="text-[15px]  text-center leading-[150%] lg:text-[20px]  w-[150px] md:w-[300px]">
                     Nessa fase iremos bater um papo para que possamos conhecer
                     melhor você
                   </p>
