@@ -160,7 +160,7 @@ export default function Beneficios() {
           <div className="flex flex-col-reverse justify-center items-center md:flex-row md:gap-14 md:justify-end mt-20">
             <div className="text-center flex flex-col items-center mt-[1rem] md:text-end  ">
               <h3 className="text-[20px] w-[400px] font-extrabold  md:text-[2.3rem] lg:text-[2.3rem] md:w-[700px] ">
-                Mentória
+                Mentoria
               </h3>
               <p className="text-[17px]  mt-[1rem] w-[290px] leading-[130%] md:text-[1.5rem] md:w-[600px] lg:mt-[1.6rem] md:-mr-28 ">
                 Os mentores experientes oferecem orientação valiosa,
